@@ -1,0 +1,17 @@
+Android Build Process is termed as Legacy process as of October 2016.
+
+
+Working:
+
+Source Codes(.java) + Library Codes(.class) ------------->(Processed Through) Standard javac compiler ------------>Java byte codes(.class)-------->(Proguard- used to minimise and obfuscate the bytecode)Minimized ByteCode(.class)----------->(tool-DEX)------->DEX Bytecode(.dex)
+
+Dex files are the universal files for Android. it is packaged in the application when depolyed on the app store.
+
+
+
+
+
+Jack Compiler:(Faster than usual)
+Source Codes (.java) + Library Codes(.class)-------->(Jack Complier)It converts directly to the DEX Bytecode(.dex)
+
+Jack Compiler does the same work as the Proguard in the Legacy compilation.
